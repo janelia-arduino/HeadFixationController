@@ -16,16 +16,23 @@
 
 #include <ModularServer.h>
 #include <ModularDeviceBase.h>
-#include <Parent.h>
+#include <StepDirController.h>
+#include <StepperController.h>
+#include <StageController.h>
 
 #include "HeadFixationController/Constants.h"
 
 
-class HeadFixationController : public Parent
+class HeadFixationController : public StageController
 {
 public:
   HeadFixationController();
   virtual void setup();
+
+  void retract();
+  void fixate();
+
+  PositionArray getFixationPosition();
 
 private:
   modular_server::Property properties_[head_fixation_controller::constants::PROPERTY_COUNT_MAX];
@@ -34,6 +41,8 @@ private:
   modular_server::Callback callbacks_[head_fixation_controller::constants::CALLBACK_COUNT_MAX];
 
   // Handlers
+  void retractHandler(modular_server::Pin * pin_ptr);
+  void fixateHandler(modular_server::Pin * pin_ptr);
 
 };
 

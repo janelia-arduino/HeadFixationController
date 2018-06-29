@@ -17,6 +17,22 @@
 * API NAMES
 
   #+BEGIN_SRC js
+    {
+      "id": "getApi",
+      "result": {
+        "firmware": [
+          "HeadFixationController"
+        ],
+        "verbosity": "NAMES",
+        "properties": [
+          "fixationPosition"
+        ],
+        "callbacks": [
+          "retract",
+          "fixate"
+        ]
+      }
+    }
   #+END_SRC
 
 * API GENERAL
@@ -29,7 +45,11 @@
 
   [[https://github.com/janelia-arduino/ModularDeviceBase]]
 
-  [[https://github.com/janelia-arduino/Parent]]
+  [[https://github.com/janelia-arduino/StepDirController]]
+
+  [[https://github.com/janelia-arduino/StepperController]]
+
+  [[https://github.com/janelia-arduino/StageController]]
 
 * Clients
 
@@ -37,7 +57,7 @@
 
   [[https://github.com/janelia-modular-devices/modular_device_base.git]]
 
-  [[https://github.com/janelia-modular-devices/device.git]]
+  [[https://github.com/janelia-modular-devices/stepper_controller.git]]
 
 * More Detailed Modular Device Information
 
