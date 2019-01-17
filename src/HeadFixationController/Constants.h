@@ -43,7 +43,7 @@ extern const long velocity_min_element_default;
 
 extern const long acceleration_max_element_default;
 
-extern const bool right_switches_enabled_default;
+extern const bool right_switches_enabled_element_default;
 
 extern const bool right_switch_stop_enabled_element_default;
 

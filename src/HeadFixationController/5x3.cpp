@@ -45,6 +45,11 @@ const long acceleration_max_default[CHANNEL_COUNT] =
   acceleration_max_element_default,
 };
 
+const bool right_switches_enabled_default[CONTROLLER_COUNT] =
+{
+  right_switches_enabled_element_default,
+};
+
 const bool right_switch_stop_enabled_default[CHANNEL_COUNT] =
 {
   right_switch_stop_enabled_element_default,

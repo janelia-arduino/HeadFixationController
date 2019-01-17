@@ -17,6 +17,7 @@ namespace head_fixation_controller
 namespace constants
 {
 enum{CHANNEL_COUNT=1};
+enum{CONTROLLER_COUNT=1};
 
 // Pins
 
@@ -31,6 +32,8 @@ extern const long velocity_max_default[CHANNEL_COUNT];
 extern const long velocity_min_default[CHANNEL_COUNT];
 
 extern const long acceleration_max_default[CHANNEL_COUNT];
+
+extern const bool right_switches_enabled_default[CONTROLLER_COUNT];
 
 extern const bool right_switch_stop_enabled_default[CHANNEL_COUNT];
 

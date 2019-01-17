@@ -21,7 +21,7 @@ const modular_server::FirmwareInfo firmware_info =
   .name_ptr=&firmware_name,
   .version_major=1,
   .version_minor=0,
-  .version_patch=0,
+  .version_patch=1,
 };
 
 // Pins
@@ -37,7 +37,7 @@ const long velocity_min_element_default = 100;
 
 const long acceleration_max_element_default = 4000;
 
-const bool right_switches_enabled_default = false;
+const bool right_switches_enabled_element_default = false;
 
 const bool right_switch_stop_enabled_element_default = false;
 
