@@ -3,7 +3,7 @@
 //
 //
 // Authors:
-// Peter Polidoro peterpolidoro@gmail.com
+// Peter Polidoro peter@polidoro.io
 // ----------------------------------------------------------------------------
 #ifndef HEAD_FIXATION_CONTROLLER_H
 #define HEAD_FIXATION_CONTROLLER_H
